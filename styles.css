@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    background-attachment: fixed;
+    width: 100vw;
+    height: 90vh;
+}
+.container1 {
+    background-image: url('http://wallpapers.ae/wp-content/uploads/2014/12/Field-High-Quality-Background-Wallpapers.jpg')
+}
+.container2 {
+    background-image: url('https://i.pinimg.com/originals/95/ee/86/95ee8696f8ed1abb3767928c4d0daf65.jpg');
+}
+.container3 {
+    background-image: url('http://i.imgur.com/oke2LuI.png');
+}
+.container4 {
+    background-image: url('http://ktotak.ru/_bl/0/27663109.jpg');
+}
+.container5 {
+    position: relative;
+    background-image: url('http://www.pixelstalk.net/wp-content/uploads/2016/06/Desktop-Eiffel-Tower-HD-Wallpapers.jpg');
+}
+.content1 {
+    position: absolute;
+    top: 280px;
+    right: 400px;
+    width: 350px;
+    background-color:white;
+    opacity: 0.6;
+    text-align: center;
+    padding: 30px;
+}
+button {
+    margin-top: 50px;
+    background-color: red;
+    width: 120px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+}
+button:hover {
+    background-color: blue;
+}
