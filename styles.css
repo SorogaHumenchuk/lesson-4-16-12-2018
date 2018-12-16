@@ -3,6 +3,7 @@ body {
     margin: 0;
 }
 .container {
+    position: relative;
     background-attachment: fixed;
     width: 100vw;
     height: 90vh;
@@ -20,7 +21,7 @@ body {
     background-image: url('http://ktotak.ru/_bl/0/27663109.jpg');
 }
 .container5 {
-    position: relative;
+
     background-image: url('http://www.pixelstalk.net/wp-content/uploads/2016/06/Desktop-Eiffel-Tower-HD-Wallpapers.jpg');
 }
 .content1 {
@@ -54,5 +55,36 @@ button:hover {
     background-color: white;
     opacity: 0.6;
 }
-
-git pull
+.content3 {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    background-color: white;
+    opacity: 0.6;
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+}
+.image {
+    position: absolute;
+}
+.image1 {
+    top: 100px;
+    left: 150px;
+}
+.image2 {
+    top: 100px; 
+    left: 500px;
+}
+.image3 {
+    top: 100px;
+    left: 850px;
+}
+.image4 {
+    top: 100px;
+    right: 200px;
+}
+.image:hover {
+    transform: rotate(-25deg);
+    transition-duration: 1s;
+}
